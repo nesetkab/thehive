@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,15 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            <h2>Socials</h2>
           </a>
         </div>
       </div>
@@ -37,16 +29,14 @@ export default function Home() {
           height={74}
           priority
         />
-        
-        
       </div>
       <div className="-mt-96">
-        <a className="font-bold text-xl">A high school robotics team from Sandy, Utah.</a>
+        <a className="font-bold text-xl">
+          A high school robotics team from Sandy, Utah.
+        </a>
       </div>
-      
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        
         <a
           href="https://www.firstinspires.org/robotics/ftc"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
