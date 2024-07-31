@@ -8,9 +8,9 @@ import Carousel from './slider';
 
 export default function Home() {
   const images = [
-    'vercel.svg',
-    'next.svg',
-    'hive text2.svg'
+    'departmentofdefense.svg',
+    'beehive.svg',
+    
     // Add more image paths as needed
   ];
 
@@ -23,7 +23,7 @@ export default function Home() {
           </h2>
         </div >
         
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <div className="group  rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300  hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           
           <Carousel images={images} />
           

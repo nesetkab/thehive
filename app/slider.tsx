@@ -17,7 +17,7 @@ const CarouselContainer = styled.div`
   position: relative;
   width: 100%;
   max-width: 600px;  /* Adjust this to fit your design */
-  height: 50px;  /* Adjust height as needed */
+  height: 500px;  /* Adjust height as needed */
   overflow: hidden;
   margin: auto;
 `;
@@ -25,13 +25,13 @@ const CarouselContainer = styled.div`
 const SlideWrapper = styled.div`
   display: flex;
   align-items: center;  /* Center items vertically */
-  width: 200%;
+  width: 100%;
   height: 100%;
   animation: ${scroll} 5s linear infinite;
 `;
 
 const Slide = styled.div`
-  flex: 0 0 16%;  /* Adjust this based on the number of images */
+  flex: 0 0 100%;  /* Adjust this based on the number of images */
   box-sizing: border-box;
   display: flex;
   justify-content: center;  /* Center items horizontally */
