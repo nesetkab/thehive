@@ -9,7 +9,7 @@ const scroll = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-270%);
+    transform: translateX(-490%);
   }
 `;
 
@@ -27,7 +27,7 @@ const SlideWrapper = styled.div`
   align-items: center;  /* Center items vertically */
   width: 100%;
   height: 100%;
-  animation: ${scroll} 5s linear infinite;
+  animation: ${scroll} 30s linear infinite;
 `;
 
 const Slide = styled.div`
