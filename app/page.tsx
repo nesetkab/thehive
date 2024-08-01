@@ -8,12 +8,19 @@ import Carousel from './slider';
 
 export default function Home() {
   const images = [
-    'departmentofdefense.svg',
+    'dod.svg',
+    'plastic.svg',
+    'stem.svg',
+    'motorola.svg',
+    'advantage.svg',
+    'Aquaveo.svg',
+    
     'beehive.svg',
+    
     
     // Add more image paths as needed
   ];
-
+   // bg-gray-100
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-center">
@@ -22,7 +29,7 @@ export default function Home() {
             Hive Members
           </h2>
         </div >
-        
+       
         <div className="group  rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300  hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           
           <Carousel images={images} />

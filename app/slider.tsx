@@ -9,7 +9,7 @@ const scroll = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-270%);
   }
 `;
 
@@ -17,7 +17,7 @@ const CarouselContainer = styled.div`
   position: relative;
   width: 100%;
   max-width: 600px;  /* Adjust this to fit your design */
-  height: 500px;  /* Adjust height as needed */
+  height: 100px;  /* Adjust height as needed */
   overflow: hidden;
   margin: auto;
 `;
@@ -31,7 +31,7 @@ const SlideWrapper = styled.div`
 `;
 
 const Slide = styled.div`
-  flex: 0 0 100%;  /* Adjust this based on the number of images */
+  flex: 0 0 70%;  /* Adjust this based on the number of images */
   box-sizing: border-box;
   display: flex;
   justify-content: center;  /* Center items horizontally */
