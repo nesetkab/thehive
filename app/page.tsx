@@ -43,21 +43,21 @@ export default function Home() {
       </div>
 
       <div className=" lg:hidden flex flex-row pt-16 py-0 px-0 ">
-        <div className=" flex-1  text-left  group rounded-lg border border-transparent  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 ">
-          <h2 className="pl-4 mb-3 mt-3 text-xl font-semibold">
+        <div className="left-0 top-0 w-32  relative text-center  group rounded-lg border border-transparent  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 ">
+          <h2 className="mb-3 mt-3 text-xl font-semibold">
             Hive
           </h2>
         </div >
-        <div className=" flex-1 text-right  group rounded-lg border border-transparent  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 ">
+        <div className="right-0 top-0 w-32  relative text-center  group rounded-lg border border-transparent  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 ">
           
-            <h2 className="pr-4 mb-3 mt-3 text-xl font-semibold">
+            <h2 className=" mb-3 mt-3 text-xl font-semibold">
               Socials
             </h2>
           
         </div>
       </div>
 
-      <div className=" px-8 relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-yellow-200 after:via-yellow-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-yellow-700 before:dark:opacity-10 after:dark:from-yellow-900 after:dark:via-[#FFD700] after:dark:opacity-40 before:w-[480px] after:w-[240px] before:h-[360px]">
+      <div className=" px-8 relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/3 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[130px] after:w-full after:translate-x-1/6 after:bg-gradient-conic after:from-yellow-200 after:via-yellow-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-yellow-700 before:dark:opacity-10 after:dark:from-yellow-900 after:dark:via-[#FFD700] after:dark:opacity-40 before:w-[400px] after:w-[240px] before:h-[400px]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#FDE9B160]"
           src="/hive text2.svg"
