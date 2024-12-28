@@ -30,13 +30,14 @@ export default function Page() {
 
       <div className="mt-12 px-24 hidden lg:flex self-stretch  place-items-start  flex-row">
         <div className="">
-          <div className="pl-12  flex flex-col justify-between">
-            <h2 className="text-4xl font-black mb-4">Our Members:</h2>
-            <div className="flex flex-row ">
+          <div className="pl-12  flex flex-col justify-between self-stretch">
+            <h2 className="text-4xl font-black text-orange-400 mb-4">23/24 Centerstage</h2>
+            <h2 className="text-4xl font-bold mb-4">Our Members:</h2>
+            <div className="flex flex-row  ">
               <div className="flex flex-col">
                 <Image
                   className=""
-                  src="/royd.jpg"
+                  src="/royd.png"
                   alt="eMail"
                   width={100}
                   height={100}
@@ -48,29 +49,140 @@ export default function Page() {
               <div className="px-12 flex flex-col">
                 <Image
                   className=""
-                  src="/royd.jpg"
-                  alt="eMail"
+                  src="/annie.png"
+                  alt="Annie"
                   width={100}
                   height={100}
                   priority
                 />
-                <h2 className="text-3xl font-black ">Royd</h2>
+                <h2 className="text-3xl font-black ">Annie</h2>
                 <h2 className="text-2xl font-bold ">Coach</h2>
               </div>
               <div className="flex flex-col">
                 <Image
                   className=""
-                  src="/royd.jpg"
+                  src="/ben.png"
+                  alt="Ben"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Ben</h2>
+                <h2 className="text-2xl font-bold ">Coach</h2>
+              </div>
+            </div>
+            <div className="flex flex-row justify-between">
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/tanner.png"
                   alt="eMail"
                   width={100}
                   height={100}
                   priority
                 />
-                <h2 className="text-3xl font-black ">Royd</h2>
-                <h2 className="text-2xl font-bold ">Coach</h2>
+                <h2 className="text-3xl font-black ">Tanner</h2>
+                <h2 className="text-2xl font-bold ">Team Cap</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/neset.png"
+                  alt="Annie"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Neş'et</h2>
+                <h2 className="text-2xl font-bold ">Bus. Lead</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/ashley.png"
+                  alt="Ben"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Ashley</h2>
+                <h2 className="text-2xl font-bold ">Sr. Prog</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/robbie.png"
+                  alt="Robbie"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Robbie</h2>
+                <h2 className="text-2xl font-bold ">Sr. Prog</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/dizire.png"
+                  alt="Dizire"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Dizire</h2>
+                <h2 className="text-2xl font-bold ">Prog</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/james.png"
+                  alt="Ben"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">James</h2>
+                <h2 className="text-2xl font-bold ">Design</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/jonah.png"
+                  alt="jonah"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Jonah</h2>
+                <h2 className="text-2xl font-bold ">Build</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/max.png"
+                  alt="Ben"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Max</h2>
+                <h2 className="text-2xl font-bold ">Build</h2>
+              </div>
+              <div className="flex flex-col">
+                <Image
+                  className=""
+                  src="/mayank.png"
+                  alt="Ben"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                <h2 className="text-3xl font-black ">Mayank</h2>
+                <h2 className="text-2xl font-bold ">Build</h2>
               </div>
             </div>
           </div>
+
           <div className="pl-24 flex flex-row">
             <div className="z-[-1] ">
               <Image
@@ -89,34 +201,35 @@ export default function Page() {
               </h2>
             </div>
           </div>
+
         </div>
       </div>
       <div className="pt-10 pb-5 hidden lg:inline-block ">
-        <h2 className="text-4xl font-black mb-1">Our Stats:</h2>
+        <h2 className="text-4xl font-black mb-1">Freedom Prep Academy</h2>
         <Link
-          href="/accolades"
+          href="https://ftcscout.org/events/2023/USUTPRQ/matches"
           className="text-blue-500 underline hover:text-blue-400"
           rel="noopener noreferrer"
+          target="_blank"
         >
-          <p className="text-center text-s font-black mb-1">See More</p>
+          <p className="text-center text-s font-black mb-1">See All Matches</p>
         </Link>
       </div>
       <div className="px-24 hidden lg:flex self-stretch  place-items-start  flex-row justify-between">
         <div className="p-4 group rounded-lg border border-transparent transition-colors border-yellow bg-gray-100 border-neutral-100 bg-neutral-800/30 ">
           <h2 className="text-4xl font-black text-yellow-400 ">
-            79th in Total OPR
+            4th in Qualification Matches
           </h2>
           <p className="text-xl font-bold max-w-[30ch] mb-2">
-            Out of 7,681 teams worldwide.
+            Out of 26 teams competing
           </p>
           <p className="text-m font-normal max-w-[30ch]">
-            OPR is Offensive Power Ranking and it shows how many points a team
-            contributes per match on average.
+            5 Wins and 1 Loss
           </p>
         </div>
         <div className="ml-8 p-4 group rounded-lg border border-transparent transition-colors border-yellow bg-gray-100 border-neutral-100 bg-neutral-800/30 ">
           <h2 className="text-4xl font-black text-yellow-400 ">
-            63rd in TeleOP OPR
+            2nd Alliance First Pick
           </h2>
           <p className="text-xl font-bold max-w-[30ch] mb-2">
             Out of 7,681 teams worldwide.
