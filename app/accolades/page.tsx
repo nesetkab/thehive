@@ -93,7 +93,7 @@ export default function Page() {
                   height={100}
                   priority
                 />
-                <h2 className="text-3xl font-black ">Neş'et</h2>
+                <h2 className="text-3xl font-black ">Neşet</h2>
                 <h2 className="text-2xl font-bold ">Bus. Lead</h2>
               </div>
               <div className="flex flex-col">
