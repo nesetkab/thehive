@@ -28,7 +28,7 @@ export default function RootLayout({
         property="og:site_name"
         content="The Hive 3747"
       />
-      <SpeedInsights />
+      
       
       <meta name="twitter:image" content="/twitter-image.png" />
       <meta name="twitter:image:type" content="image/png" />
@@ -36,6 +36,7 @@ export default function RootLayout({
       <meta name="twitter:image:height" content="832" />
       <body className={InterFont.className}>
         {children}
+        <SpeedInsights />
         <Toaster richColors position="top-center" />
       </body>
     </html>
