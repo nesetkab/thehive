@@ -38,7 +38,7 @@ export default function Logos() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-2xl font-black text-zinc-300 sm:text-lg"
-          text="Please note: This site is till under construction. Thank you for your patience!"
+          text="Please note: This site is still under construction. Thank you for your patience!"
           duration={0.8}
         />
       </motion.div>
