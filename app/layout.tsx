@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Figtree, Inter } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 //import { Analytics } from "@vercel/analytics/react";
 
 const InterFont = Inter({ subsets: ["latin"] });
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className={InterFont.className}>
         {children}
         <SpeedInsights />
+        <Analytics />
         <Toaster richColors position="top-center" />
       </body>
     </html>
