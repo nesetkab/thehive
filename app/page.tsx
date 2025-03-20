@@ -14,7 +14,6 @@ export default function Home() {
 
         <CTA />
 
-
         <Logos />
       </section>
 

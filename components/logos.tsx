@@ -4,15 +4,6 @@ import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import TextBlur from "./ui/text-blur";
 
-const logos = [
-  { href: "https://nextjs.org", src: "/nextjs.svg", alt: "Next.js Logo" },
-  { href: "https://notion.so", src: "/notion.svg", alt: "Notion Logo" },
-  { href: "https://resend.com", src: "/resend.svg", alt: "Resend Logo" },
-  { href: "https://upstash.com", src: "/upstash.svg", alt: "Upstash Logo" },
-  { href: "https://ui.shadcn.com", src: "/shadcn.svg", alt: "shadcn Logo" },
-  { href: "https://vercel.com", src: "/vercel.svg", alt: "Vercel Logo" },
-];
-
 export default function Logos() {
   return (
     <motion.div
@@ -22,28 +13,47 @@ export default function Logos() {
       animate="visible">
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="text-center text-2xl font-medium tracking-tight text-zinc-200 md:text-3xl"
-          text="Our Accolades"
+          className="text-center text-2xl font-bold tracking-tight text-zinc-200 md:text-3xl"
+          text="Who We Are:"
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
-        <TextBlur
-          className="text-center text-base text-zinc-300 sm:text-lg"
-          text="Utah WAC and Inspire winner, with 4 state records, #1 OPR in Utah, and top 250 OPR in the world."
-          duration={0.8}
-        />
+        <p className="text-center text-base text-zinc-300 sm:text-lg">
+          A 16-year-old high school team from Sandy, Utah, based at
+          <span>&nbsp;</span>
+          <Link
+            href="https://beehiveacademy.org/"
+            className="text-center text-base text-zinc-300 underline sm:text-lg"
+            target="_blank">
+            Beehive Science & Technology Academy.
+          </Link>
+        </p>
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="text-center text-2xl font-black text-zinc-300 sm:text-lg"
-          text="Please note: This site is still under construction. Thank you for your patience!"
+          className="text-center text-xl font-bold text-zinc-300 md:text-2xl"
+          text="Into The Deep Stats:"
           duration={0.8}
         />
+        <p className="text-center text-base text-zinc-300 sm:text-lg">
+          Utah Winning Alliance Captain
+          <br />
+          Utah Inspire Award Winner
+          <br />
+          26-0 at last 3 comps
+          <br />
+          #1 & #3 Utah np OPRs <br />
+          Top 4/4 State Records <br />
+          <Link
+            href="https://youtu.be/X6IVD366oko?si=Zzr-3RBBw4lECqgz"
+            className="text-center text-base text-zinc-300 underline sm:text-lg"
+            target="_blank">
+            320np Utah State Record
+          </Link>
+        </p>
       </motion.div>
-
-      
     </motion.div>
   );
 }

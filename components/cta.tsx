@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import TextBlur from "@/components/ui/text-blur";
 import AnimatedShinyText from "@/components/ui/shimmer-text";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
-
+import Image from "next/image";
 export default function CTA() {
   return (
     <motion.div
@@ -23,9 +23,19 @@ export default function CTA() {
       <motion.img
         src="/hive text2.svg"
         alt="logo"
-        className="mx-auto h-48 "
+        className="mx-auto z-10 h-48 "
         variants={itemVariants}
       />
+
+      <motion.div variants={itemVariants}>
+        <Image
+          className="text-center -z-10 -mt-16 text-2xl font-black text-zinc-300 sm:text-lg"
+          src="/winners.jpg"
+          alt="The Hive 3747"
+          width={800}
+          height={600}
+        />
+      </motion.div>
 
       
     </motion.div>
