@@ -20,7 +20,7 @@ export default function Logos() {
 
       <motion.div variants={itemVariants}>
         <p className="text-center text-base text-zinc-300 sm:text-lg">
-          A 16-year-old high school team from Sandy, Utah, based at
+          A 16-year-old high school robotics team from Sandy, Utah, based at
           <span>&nbsp;</span>
           <Link
             href="https://beehiveacademy.org/"
@@ -53,6 +53,14 @@ export default function Logos() {
             320np Utah State Record
           </Link>
         </p>
+        
+      </motion.div>
+      <motion.div variants={itemVariants}>
+        <TextBlur
+          className="text-center text-2xl font-black text-zinc-300 sm:text-lg"
+          text="Please note: This site is still under construction. Thank you for your patience!"
+          duration={0.8}
+        />
       </motion.div>
     </motion.div>
   );
