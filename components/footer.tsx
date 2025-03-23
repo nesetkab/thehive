@@ -13,7 +13,7 @@ export default function Footer() {
         made by{""}
           <Link
             href="https://nesetk.com/"
-            className="text-center text-base text-zinc-300 underline sm:text-lg"
+            className="underline"
             target="_blank">
             neşet
           </Link>
