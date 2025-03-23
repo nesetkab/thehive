@@ -10,7 +10,7 @@ export default function Footer() {
       animate="visible"
       className="mt-auto flex w-full items-center justify-center gap-1 border-t bg-background p-6 text-muted-foreground md:justify-start">
       <motion.div variants={itemVariants}>
-        made by{""}
+        made by{" "}
           <Link
             href="https://nesetk.com/"
             className="underline"
