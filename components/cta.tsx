@@ -3,6 +3,7 @@ import TextBlur from "@/components/ui/text-blur";
 import AnimatedShinyText from "@/components/ui/shimmer-text";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import Image from "next/image";
+import Link from "next/link";
 export default function CTA() {
   return (
     <motion.div
@@ -13,9 +14,11 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <div className="flex items-center justify-center">
           <div className="flex w-fit items-center justify-center rounded-full bg-muted/80 text-center">
-            <AnimatedShinyText className="px-4 py-1">
-              <span>This is a temporary Worlds website!</span>
-            </AnimatedShinyText>
+            <Link href="/summercamp" rel="noopener noreferrer">
+              <AnimatedShinyText className="px-4 py-1">
+                <span>Sign up for our Summer Camp!</span>
+              </AnimatedShinyText>
+            </Link>
           </div>
         </div>
       </motion.div>
@@ -37,7 +40,7 @@ export default function CTA() {
         />
       </motion.div>
 
-      
+
     </motion.div>
   );
 }
