@@ -30,9 +30,7 @@ export default function SummerCamp() {
   };
 
   return (
-    <main className="flex min-h-screen min-w-screen  flex-col items-center overflow-x-clip pt-4 md:pt-12  text-gray-100"> {/* Suggested dark theme */}
-
-
+    <main className="flex min-h-screen min-w-screen  flex-col items-center overflow-x-clip pt-4 md:pt-12  text-gray-100">
       <section className="flex flex-col items-center px-4 sm:px-6 lg:px-8 w-full max-w-5xl z-10">
         <div className="flex flex-col md:flex-row items-center justify-between w-full my-8 md:my-12">
           <div className="text-center md:text-left mb-6 md:mb-0 md:pr-8">
@@ -117,15 +115,19 @@ export default function SummerCamp() {
           </InfoSection>
 
         </div>
-        <div className="pb-12"></div> {/* Adding some padding at the bottom */}
-      </section>
+        <div className="pb-12"></div>       </section>
     </main>
   );
 }
 
 // Helper component for consistent section styling
 // You can place this outside the Page component or in a separate file
-const InfoSection = ({ title, children }) => (
+interface InfoSectionProps {
+  title: string;
+  children: React.ReactNode;
+}
+
+const InfoSection: React.FC<InfoSectionProps> = ({ title, children }) => (
   <section className="border-b border-gray-700 pb-8 last:border-b-0 last:pb-0">
     <h2 className="text-3xl font-bold mb-5 text-yellow-400 flex items-center">
       {/* Example: Icon can be added here if you use a library like react-icons */}
@@ -136,7 +138,7 @@ const InfoSection = ({ title, children }) => (
       {children}
     </div>
   </section>
-);
+)
 
 
 
