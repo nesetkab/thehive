@@ -43,12 +43,7 @@ const sponsorData = [
     logoSvg: < Haas />,
     websiteUrl: 'https://www.ghaasfoundation.org/',
   },
-  {
-    id: 5,
-    name: "JacobsenInnovation",
-    logoSvg: < JacobsenInnovation />,
-    websiteUrl: 'https://jacobseninnovations.com/',
-  },
+
   {
     id: 6,
     name: "LayshiaClarendon",
@@ -78,6 +73,12 @@ const sponsorData = [
     name: "Utahrealestate",
     logoSvg: < Utahrealestate />,
     websiteUrl: 'https://www.utahrealestate.com/',
+  },
+  {
+    id: 11,
+    name: "JacobsenInnovation",
+    logoSvg: < JacobsenInnovation />,
+    websiteUrl: 'https://jacobseninnovations.com/',
   },
 
 ]

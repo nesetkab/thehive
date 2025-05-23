@@ -38,14 +38,14 @@ const SponsorsSection: React.FC<SponsorsProps> = ({
   emailButtonText = "Email Us",
 }) => {
   return (
-    <section className="text-neutral-100 min-w-full  py-16 md:py-24 sm:px-6 lg:px-16">
+    <section className="text-neutral-100 min-w-full mx-72 py-16 md:py-24 sm:px-6 lg:px-16">
       <div className="min-w-full">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 md:mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 ">
           {title}
         </h2>
 
         {sponsors.length > 0 ? (
-          <div className="grid max-w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-4 lg:gap-x-4 lg:gap-y-12 items-center justify-center">
+          <div className="grid mx-48 max-w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-1 items-center justify-center">
             {sponsors.map((sponsor) => (
               <a
                 key={sponsor.id}
@@ -67,11 +67,11 @@ const SponsorsSection: React.FC<SponsorsProps> = ({
           <p className="text-center text-neutral-400">We are currently seeking sponsors. Get in touch to feature your logo here!</p>
         )}
 
-        <div className="mt-20 md:mt-28 text-center">
+        <div className="mt-4 text-center">
           <h3 className="text-3xl sm:text-4xl font-semibold mb-4 text-neutral-50">
             {ctaTitle}
           </h3>
-          <p className="text-neutral-300 max-w-xl mx-auto mb-8 text-sm sm:text-base leading-relaxed">
+          <p className="text-neutral-300 max-w-xl mx-auto mb-4 text-sm sm:text-base leading-relaxed">
             {ctaText}
           </p>
           <a
