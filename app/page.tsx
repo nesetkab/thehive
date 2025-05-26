@@ -85,8 +85,8 @@ const sponsorData = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center overflow-x-clip pt-12 md:pt-24">
-      <section className="flex flex-col min-w-full items-center px-4 sm:px-6 lg:px-8">
+    <main className="flex w-auto min-w-full  min-h-screen flex-col items-center overflow-x-clip pt-12 md:pt-24">
+      <section className=" max-w-full min-w-full flex flex-col  items-center px-4 sm:px-6 lg:px-8">
         <Header />
 
         <CTA />
