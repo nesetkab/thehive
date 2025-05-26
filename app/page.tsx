@@ -27,9 +27,9 @@ const sponsorData = [
   },
   {
     id: 2,
-    name: "Beehive Academy",
+    name: "Aquaveo",
     logoSvg: < Aquaveo />,
-    websiteUrl: 'https://beehiveacademy.org',
+    websiteUrl: 'https://aquaveo.com/',
   },
   {
     id: 3,
