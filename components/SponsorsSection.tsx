@@ -38,7 +38,7 @@ const SponsorsSection: React.FC<SponsorsProps> = ({
   emailButtonText = "Email Us",
 }) => {
   return (
-    <section className="text-neutral-100 lg:px-64 min-w-full justify-center items-center  py-16 md:py-24 sm:px-6 ">
+    <section className="text-neutral-100 lg:px-64 min-w-full justify-center items-center  py-8 md:py-8 sm:px-6 ">
       <div className="min-w-full items-center justify-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 ">
           {title}

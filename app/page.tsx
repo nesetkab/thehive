@@ -17,6 +17,7 @@ import Motorola from "@/public/logos/Motorola.svg";
 import Parker from "@/public/logos/Parker.svg";
 import STEMActionCenter from "@/public/logos/STEMActionCenter.svg";
 import Utahrealestate from "@/public/logos/Utahrealestate.svg";
+import RecruitingSection from "@/components/recruit";
 
 const sponsorData = [
   {
@@ -90,6 +91,8 @@ export default function Home() {
         <Header />
 
         <CTA />
+
+        <RecruitingSection />
 
         <SponsorsSection
           sponsors={sponsorData}

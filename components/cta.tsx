@@ -14,7 +14,7 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <div className="flex items-center justify-center">
           <div className="flex h-fit w-fit items-center justify-center rounded-full bg-muted/80 text-center">
-            <Link href="/summercamp" rel="noopener noreferrer">
+            <Link href="/summercamp" rel="noopener noreferrer" >
               <AnimatedShinyText className="px-4 py-1">
                 <span>Sign up for our Summer Camp!</span>
               </AnimatedShinyText>
@@ -22,14 +22,12 @@ export default function CTA() {
           </div>
         </div>
       </motion.div>
-
       <motion.img
         src="/hive text2.svg"
         alt="The Hive 3747, A high school robotics team from Sandy, Utah."
         className="mx-auto z-10 h-48 "
         variants={itemVariants}
       />
-
       <motion.div variants={itemVariants}>
         <Image
           className="text-center -z-10 -mt-16 text-2xl font-black text-zinc-300 sm:text-lg"
@@ -39,8 +37,6 @@ export default function CTA() {
           height={600}
         />
       </motion.div>
-
-
     </motion.div>
   );
 }
