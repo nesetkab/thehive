@@ -3,8 +3,6 @@
 import React from 'react';
 import Particles from '@/components/ui/particles';
 import Header from '@/components/header';
-// You can install react-icons if you prefer: npm install react-icons
-// Or use Heroicons as inline SVGs like below:
 
 const EnvelopeIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 mr-2">
@@ -33,13 +31,12 @@ interface SocialLink {
 }
 
 export default function ContactPage() {
-  const schoolAddress = "123 Innovation Drive, Techville, UT 84020, USA";
+  const schoolAddress = "2165 E 9400 S Sandy, UT 84093";
   const contactEmail = "3747hive@gmail.com";
   const socialMediaLinks: SocialLink[] = [
     { name: "Instagram", href: "https://instagram.com/thehive3747", icon: <InstagramIcon /> },
-    { name: "YouTube", href: "https://youtube.com/yourschoolchannel", icon: <YouTubeIcon /> },
-    { name: "X (Twitter)", href: "https://x.com/yourschoolhandle", icon: <XIcon /> },
-    { name: "Facebook", href: "https://facebook.com/yourschoolpage", icon: <FacebookIcon /> },
+    { name: "YouTube", href: "https://www.youtube.com/@thehive3747", icon: <YouTubeIcon /> },
+
   ];
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -65,10 +62,9 @@ export default function ContactPage() {
       </header>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16">
-        {/* Contact Information Section */}
         <div className="space-y-8">
           <div>
-            <h2 className="text-2xl font-semibold text-yellow-400 mb-3">Our Location</h2>
+            <h2 className="text-2xl font-semibold text-yellow-400 mb-3">Our School</h2>
             <div className="flex items-start text-neutral-200">
               <MapPinIcon />
               <p className="leading-relaxed">{schoolAddress}</p>
@@ -86,7 +82,7 @@ export default function ContactPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold text-yellow-400 mb-3">Connect With Us</h2>
+            <h2 className="text-2xl font-semibold text-yellow-400 mb-3">Socials</h2>
             <div className="flex space-x-5">
               {socialMediaLinks.map((social) => (
                 <a
@@ -104,10 +100,9 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Contact Form Section */}
         <div className="bg-neutral-800 p-8 rounded-lg shadow-xl">
           <h2 className="text-2xl font-semibold text-yellow-400 mb-6">Send Us a Message</h2>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form action="https://formspree.io/f/mpwdggon" method="POST" className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-neutral-300">Full Name</label>
               <input
@@ -171,4 +166,4 @@ export default function ContactPage() {
       />
     </div>
   );
-}
+}          
