@@ -35,7 +35,7 @@ export default function SummerCamp() {
 
 
   return (
-    <main className="flex min-h-screen min-w-screen  flex-col items-center overflow-x-clip pt-4 md:pt-12  text-gray-100">
+    <main className="flex min-h-screen min-w-screen  flex-col items-center pt-4 md:pt-12  text-gray-100">
       <section className="flex flex-col items-center px-4 sm:px-6 lg:px-8 w-full max-w-5xl z-10">
         <motion.div
           variants={containerVariants}
