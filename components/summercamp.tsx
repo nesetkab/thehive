@@ -56,7 +56,12 @@ export default function SummerCamp() {
                 {campInfo.tagline}
               </p>
             </div>
-            <Link href={campInfo.registrationLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto mt-4 md:mt-0">
+            <Link
+              href={campInfo.registrationLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto mt-4 md:mt-0"
+            >
               <NeonGradientCard className="w-full sm:w-64 hover:text-blue-300 transition-colors duration-300">
                 <h2 className="text-center text-xl font-bold">
                   Register Here!
@@ -110,7 +115,12 @@ export default function SummerCamp() {
 
             <InfoSection title="✍️ Register Now!">
               <p className="mb-4">Spaces are limited, so secure your spot today for a summer of robotic fun and learning!</p>
-              <Link href={campInfo.registrationLink} target="_blank" rel="noopener noreferrer" className="inline-block">
+              <Link
+                href={campInfo.registrationLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
                 <NeonGradientCard className=" hover:text-blue-300 transition-colors duration-300 shadow-lg">
                   <h2 className="text-center text-xl font-semibold">
                     Click Here to Sign Up

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { containerVariants, itemVariants } from "@/lib/animation-variants"; // Assuming these are defined elsewhere
+import { containerVariants, itemVariants } from "@/lib/animation-variants";
 
 const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -30,20 +30,19 @@ export default function Footer() {
           neşet
         </Link>
       </motion.div>
-
       <motion.div
         variants={itemVariants}
         className="hidden text-muted-foreground/50 md:inline"
       >
         |
       </motion.div>
-
       <motion.div variants={itemVariants}>
         <Link
           href="https://github.com/nesetkab/thehive"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="The Hive GitHub Repository" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors"
+          aria-label="The Hive GitHub Repository"
+          className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors"
         >
           <GithubIcon className="h-4 w-4" />
           <span className="hidden sm:inline">GitHub</span>
