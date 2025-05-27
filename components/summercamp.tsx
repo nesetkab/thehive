@@ -3,6 +3,7 @@ import Link from "next/link";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
+
 export default function SummerCamp() {
   const campInfo = {
     title: "The Hive's Robotics Summer Camp!",
