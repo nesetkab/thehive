@@ -25,7 +25,7 @@ export default function CTA() {
 
       <motion.img
         src="/hive text2.svg"
-        alt="logo"
+        alt="The Hive 3747, A high school robotics team from Sandy, Utah."
         className="mx-auto z-10 h-48 "
         variants={itemVariants}
       />
@@ -34,7 +34,7 @@ export default function CTA() {
         <Image
           className="text-center -z-10 -mt-16 text-2xl font-black text-zinc-300 sm:text-lg"
           src="/winners.jpg"
-          alt="The Hive 3747"
+          alt="The members of The Hive embracing in celebration after winning the 2024 Utah Championship."
           width={800}
           height={600}
         />

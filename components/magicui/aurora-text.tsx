@@ -20,8 +20,8 @@ export const AuroraText = memo(
       backgroundImage: `linear-gradient(135deg, ${colors.join(", ")}, ${
         colors[0]
       })`,
-      WebkitBackgroundClip: "text",
-      WebkitTextFillColor: "transparent",
+//      WebkitBackgroundClip: "text",
+//      WebkitTextFillColor: "transparent",
       animationDuration: `${10 / speed}s`,
     };
 
