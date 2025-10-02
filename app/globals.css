@@ -96,6 +96,7 @@ behind {
   .theme {
     --animate-background-position-spin: background-position-spin 3000ms infinite alternate;
     --animate-aurora: aurora 8s ease-in-out infinite alternate;
+    --animate-pulse: pulse var(--duration) ease-out infinite;
   }
 }
 
@@ -159,6 +160,14 @@ behind {
   100% {
     background-position: 0% 50%;
     transform: rotate(-5deg) scale(0.9);
+    }
+  }
+  @keyframes pulse {
+  0%, 100% {
+    boxShadow: 0 0 0 0 var(--pulse-color);
+    }
+  50% {
+    boxShadow: 0 0 0 8px var(--pulse-color);
     }
   }
 }

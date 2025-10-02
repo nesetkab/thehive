@@ -3,6 +3,7 @@ import TextBlur from "@/components/ui/text-blur";
 import AnimatedShinyText from "@/components/ui/shimmer-text";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import Image from "next/image";
+import ElectricBorder from "@/components/ElectricBorder"
 import Link from "next/link";
 export default function CTA() {
   return (
@@ -12,14 +13,22 @@ export default function CTA() {
       initial="hidden"
       animate="visible">
       <motion.div variants={itemVariants}>
-        <div className="flex items-center justify-center">
-          <div className="flex h-fit w-fit items-center justify-center rounded-full bg-muted/80 text-center">
-            <Link href="/summercamp" rel="noopener noreferrer" >
-              <AnimatedShinyText className="px-4 py-1">
-                <span>Sign up for our Summer Camp!</span>
-              </AnimatedShinyText>
+        <div
+          className="flex items-center justify-center"
+        >
+          <ElectricBorder
+            color="#f8be14"
+            speed={0.5}
+            chaos={0.1}
+            thickness={1}
+            style={{ borderRadius: 16 }}
+            className="flex h-fit w-fit items-center justify-center rounded-full bg-muted/80 text-center">
+            <Link href="https://ftc.beehiveacademy.org/qualifier.html" rel="noopener noreferrer" target="_blank">
+              <button className="px-4 py-1 hover:text-yellow-100 transition-colors">
+                <span>Sign up for our Qualifier!</span>
+              </button>
             </Link>
-          </div>
+          </ElectricBorder>
         </div>
       </motion.div>
       <motion.img

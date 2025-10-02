@@ -92,8 +92,6 @@ export default function Home() {
 
         <CTA />
 
-        <RecruitingSection />
-
         <SponsorsSection
           sponsors={sponsorData}
         />
