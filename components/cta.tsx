@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import TextBlur from "@/components/ui/text-blur";
-import AnimatedShinyText from "@/components/ui/shimmer-text";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import Image from "next/image";
 import ElectricBorder from "@/components/ElectricBorder"
