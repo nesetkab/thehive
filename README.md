@@ -1,8 +1,18 @@
-website for robotics team using next js and ts
+# The Hive 3747
 
-to localhost:
+Website for The Hive 3747, a high school FIRST Tech Challenge team out of Beehive Academy in Sandy, Utah. Built with SvelteKit, Tailwind v4, and Instrument Sans.
+
+## Develop
+
 ```bash
+npm install
 npm run dev
 ```
 
-made by neset
+## Build
+
+```bash
+npm run build
+```
+
+Made by neşet.
