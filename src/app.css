@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f0f14;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: #f5b800;
+  --font-instrument-sans: "Instrument Sans", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Instrument Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
