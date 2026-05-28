@@ -95,42 +95,53 @@
   ];
 </script>
 
-<main class="flex min-h-screen flex-col px-6 sm:px-16 pt-40 pb-24 max-w-5xl mx-auto">
-  <section class="flex flex-col gap-6 mb-20 max-w-3xl">
-    <h1 class="text-5xl sm:text-6xl font-light leading-[1.05] tracking-tight rise" style="animation-delay:0ms">
-      Who we <span class="text-accent">are</span>
+<main class="flex min-h-screen flex-col px-5 sm:px-10 lg:px-16 pt-24 sm:pt-40 pb-20 sm:pb-24 max-w-5xl mx-auto">
+  <section class="flex flex-col gap-5 mb-10 sm:mb-12 max-w-3xl">
+    <h1 class="text-4xl sm:text-6xl font-light leading-[1.05] tracking-tight rise" style="animation-delay:0ms">
+      Building <span class="text-accent">engineers</span>, not just robots
     </h1>
     <p class="text-lg text-foreground/60 leading-relaxed rise" style="animation-delay:220ms">
-      The Hive 3747 is a fully student-led <em>FIRST</em> Tech Challenge team out of
-      Beehive Academy in Sandy, Utah.
+      The Hive 3747 is a fully student-led
+      <a
+        href="https://www.firstinspires.org/programs/ftc/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="text-decoration: underline; text-decoration-color: #ededed; text-decoration-thickness: 1px; text-underline-offset: 4px;"
+        class="text-foreground hover:text-accent transition-colors"
+      ><em>FIRST</em> Tech Challenge</a>
+      team out of
+      <a
+        href="https://beehiveacademy.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="text-decoration: underline; text-decoration-color: #ededed; text-decoration-thickness: 1px; text-underline-offset: 4px;"
+        class="text-foreground hover:text-accent transition-colors"
+      >Beehive Academy</a>
+      in Sandy, Utah.
     </p>
   </section>
 
-  <section class="grid grid-cols-2 md:grid-cols-4 gap-px bg-foreground/10 border-y border-foreground/10 mb-32 rise" style="animation-delay:340ms">
-    <div class="bg-background flex flex-col gap-1 px-5 py-8">
-      <span class="text-4xl sm:text-5xl font-light text-foreground">2019</span>
+  <section class="grid grid-cols-2 md:grid-cols-4 gap-px bg-foreground/10 border-y border-foreground/10 mb-12 sm:mb-16 rise" style="animation-delay:340ms">
+    <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+      <span class="text-3xl sm:text-5xl font-light text-foreground">2009</span>
       <span class="text-xs text-foreground/40 uppercase tracking-wider">Founded</span>
     </div>
-    <div class="bg-background flex flex-col gap-1 px-5 py-8">
-      <span class="text-4xl sm:text-5xl font-light text-foreground">100<span class="text-accent">%</span></span>
+    <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+      <span class="text-3xl sm:text-5xl font-light text-foreground">100<span class="text-accent">%</span></span>
       <span class="text-xs text-foreground/40 uppercase tracking-wider">Student-led</span>
     </div>
-    <div class="bg-background flex flex-col gap-1 px-5 py-8">
-      <span class="text-4xl sm:text-5xl font-light text-foreground">3<span class="text-accent">×</span></span>
+    <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+      <span class="text-3xl sm:text-5xl font-light text-foreground">3<span class="text-accent">×</span></span>
       <span class="text-xs text-foreground/40 uppercase tracking-wider">Inspire Awards</span>
     </div>
-    <div class="bg-background flex flex-col gap-1 px-5 py-8">
-      <span class="text-4xl sm:text-5xl font-light text-foreground">5</span>
-      <span class="text-xs text-foreground/40 uppercase tracking-wider">Championship banners</span>
+    <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+      <span class="text-3xl sm:text-5xl font-light text-foreground">3</span>
+      <span class="text-xs text-foreground/40 uppercase tracking-wider">Worlds appearances</span>
     </div>
   </section>
 
-  <section class="flex flex-col gap-6 mb-32 max-w-3xl rise">
-    <p class="text-sm tracking-widest uppercase text-foreground/40">Our mission</p>
-    <h2 class="text-3xl sm:text-4xl font-light leading-tight">
-      Building engineers, not just robots
-    </h2>
-    <p class="text-foreground/60 leading-relaxed">
+  <section class="flex flex-col gap-6 mb-20 sm:mb-24 max-w-3xl rise" style="animation-delay:460ms">
+    <p class="text-foreground/60 leading-relaxed text-lg">
       Every decision on The Hive — design, software, budget, outreach — is made by
       students. Mentors guide; students lead. We compete to win, but the deeper goal
       is to graduate people who can collaborate under pressure, ship real engineering
@@ -139,49 +150,39 @@
   </section>
 
   <section class="flex flex-col gap-10 mb-32">
-    <div class="flex flex-col gap-4 rise">
-      <p class="text-sm tracking-widest uppercase text-foreground/40">What we stand on</p>
-      <h2 class="text-3xl sm:text-4xl font-light max-w-2xl">Three pillars</h2>
+    <div class="flex flex-col gap-4 max-w-3xl rise">
+      <h2 class="text-3xl sm:text-4xl font-light">Outreach by the numbers</h2>
+      <p class="text-foreground/60 leading-relaxed">
+        Beyond competing, The Hive runs camps, workshops, and mentorship programs
+        to bring robotics to students across Utah.
+      </p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-foreground/10 border border-foreground/10 rise" style="animation-delay:140ms">
-      <div class="bg-background flex flex-col gap-3 p-6">
-        <span class="text-sm text-accent">01</span>
-        <h3 class="text-xl">Innovation</h3>
-        <p class="text-foreground/60 text-sm leading-relaxed">
-          We design and build custom hardware and software each season, and document
-          what we learn so other teams can build on it.
-        </p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-px bg-foreground/10 border border-foreground/10 rise" style="animation-delay:140ms">
+      <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+        <span class="text-3xl sm:text-5xl font-light text-foreground">200<span class="text-accent">+</span></span>
+        <span class="text-xs text-foreground/40 uppercase tracking-wider">Camp students taught</span>
       </div>
-      <div class="bg-background flex flex-col gap-3 p-6">
-        <span class="text-sm text-accent">02</span>
-        <h3 class="text-xl">Community</h3>
-        <p class="text-foreground/60 text-sm leading-relaxed">
-          We mentor newer teams, host workshops, and run a summer robotics camp to
-          bring STEM to students who wouldn't otherwise have access.
-        </p>
+      <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+        <span class="text-3xl sm:text-5xl font-light text-foreground">500<span class="text-accent">+</span></span>
+        <span class="text-xs text-foreground/40 uppercase tracking-wider">Outreach hours</span>
       </div>
-      <div class="bg-background flex flex-col gap-3 p-6">
-        <span class="text-sm text-accent">03</span>
-        <h3 class="text-xl">Excellence</h3>
-        <p class="text-foreground/60 text-sm leading-relaxed">
-          Three Inspire Awards in a row and back-to-back World Championship trips —
-          the bar is high and we keep raising it.
-        </p>
+      <div class="bg-background flex flex-col gap-1 px-4 sm:px-5 py-6 sm:py-8">
+        <span class="text-3xl sm:text-5xl font-light text-foreground">10<span class="text-accent">+</span></span>
+        <span class="text-xs text-foreground/40 uppercase tracking-wider">Teams mentored</span>
       </div>
     </div>
   </section>
 
   <section class="flex flex-col gap-12 mb-32">
     <div class="flex flex-col gap-4 rise">
-      <p class="text-sm tracking-widest uppercase text-foreground/40">Our history</p>
       <h2 class="text-3xl sm:text-4xl font-light max-w-2xl">A team built season by season</h2>
       <p class="text-foreground/60 max-w-2xl leading-relaxed">
-        Since 2019, The Hive has competed across Utah and at the World Championship —
+        Since 2009, The Hive has competed across Utah and at the World Championship —
         earning awards for engineering, outreach, and team culture along the way.
       </p>
     </div>
 
-    <div class="grid grid-cols-5 gap-2 sm:gap-4 items-end rise" style="animation-delay:160ms">
+    <div class="grid grid-cols-5 gap-1.5 sm:gap-4 items-end">
       {#each banners as b, i}
         <img
           src={b.src}
@@ -193,21 +194,18 @@
     </div>
 
     <div class="flex flex-col">
-      {#each seasons as season, i}
+      {#each seasons as season}
         {@const awardCount = season.events.reduce((n, e) => n + e.awards.length, 0)}
         {@const isOpen = openYear === season.year}
-        <div
-          class="border-t border-foreground/10 last:border-b rise"
-          style="animation-delay:{Math.min(i * 60, 360)}ms"
-        >
+        <div class="border-t border-foreground/10 last:border-b">
           <button
             type="button"
             onclick={() => toggle(season.year)}
-            class="w-full grid grid-cols-[80px_1fr_auto] sm:grid-cols-[120px_1fr_auto] items-center gap-6 py-5 text-left group cursor-pointer"
+            class="w-full grid grid-cols-[60px_1fr_auto] sm:grid-cols-[120px_1fr_auto] items-center gap-4 sm:gap-6 py-5 text-left group cursor-pointer"
             aria-expanded={isOpen}
           >
-            <h3 class="text-3xl sm:text-4xl font-light text-foreground/80 leading-none group-hover:text-accent transition-colors">{season.year}</h3>
-            <span class="text-foreground/60 text-sm sm:text-base group-hover:text-foreground transition-colors">
+            <h3 class="text-2xl sm:text-4xl font-light text-foreground/80 leading-none group-hover:text-accent transition-colors">{season.year}</h3>
+            <span class="text-foreground/60 text-xs sm:text-base group-hover:text-foreground transition-colors">
               {season.events.length} event{season.events.length === 1 ? '' : 's'} · {awardCount} award{awardCount === 1 ? '' : 's'}
             </span>
             <span
@@ -219,7 +217,7 @@
           {#if isOpen}
             <ul
               transition:slide={{ duration: 300, easing: cubicOut }}
-              class="flex flex-col gap-5 pb-8 pl-[80px] sm:pl-[120px] pr-2 overflow-hidden"
+              class="flex flex-col gap-5 pb-8 pl-0 sm:pl-[120px] pr-2 overflow-hidden"
             >
               {#each season.events.slice().reverse() as event}
                 <li class="flex flex-col gap-1.5">
@@ -240,31 +238,6 @@
           {/if}
         </div>
       {/each}
-    </div>
-  </section>
-
-  <section class="flex flex-col gap-10 mb-32">
-    <div class="flex flex-col gap-4 max-w-3xl rise">
-      <p class="text-sm tracking-widest uppercase text-foreground/40">We give back</p>
-      <h2 class="text-3xl sm:text-4xl font-light">Outreach by the numbers</h2>
-      <p class="text-foreground/60 leading-relaxed">
-        Beyond competing, The Hive runs camps, workshops, and mentorship programs
-        to bring robotics to students across Utah.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-px bg-foreground/10 border border-foreground/10 rise" style="animation-delay:140ms">
-      <div class="bg-background flex flex-col gap-1 px-5 py-8">
-        <span class="text-4xl sm:text-5xl font-light text-foreground">200<span class="text-accent">+</span></span>
-        <span class="text-xs text-foreground/40 uppercase tracking-wider">Camp students taught</span>
-      </div>
-      <div class="bg-background flex flex-col gap-1 px-5 py-8">
-        <span class="text-4xl sm:text-5xl font-light text-foreground">500<span class="text-accent">+</span></span>
-        <span class="text-xs text-foreground/40 uppercase tracking-wider">Outreach hours</span>
-      </div>
-      <div class="bg-background flex flex-col gap-1 px-5 py-8">
-        <span class="text-4xl sm:text-5xl font-light text-foreground">10<span class="text-accent">+</span></span>
-        <span class="text-xs text-foreground/40 uppercase tracking-wider">Teams mentored</span>
-      </div>
     </div>
   </section>
 

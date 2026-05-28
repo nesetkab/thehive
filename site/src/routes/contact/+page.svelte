@@ -9,9 +9,9 @@
   ];
 </script>
 
-<main class="flex min-h-screen flex-col px-6 sm:px-16 pt-40 pb-24 max-w-5xl mx-auto">
-  <section class="flex flex-col gap-6 mb-20 max-w-3xl">
-    <h1 class="text-5xl sm:text-6xl font-light leading-[1.05] tracking-tight rise" style="animation-delay:0ms">
+<main class="flex min-h-screen flex-col px-5 sm:px-10 lg:px-16 pt-24 sm:pt-40 pb-20 sm:pb-24 max-w-5xl mx-auto">
+  <section class="flex flex-col gap-6 mb-12 sm:mb-20 max-w-3xl">
+    <h1 class="text-4xl sm:text-6xl font-light leading-[1.05] tracking-tight rise" style="animation-delay:0ms">
       Let's <span class="text-accent">talk</span>
     </h1>
     <p class="text-lg text-foreground/60 leading-relaxed rise" style="animation-delay:220ms">
@@ -20,7 +20,7 @@
     </p>
   </section>
 
-  <section class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-16 mb-32">
+  <section class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16 mb-20 sm:mb-32">
     <form
       action="https://formspree.io/f/mpwdggon"
       method="POST"
@@ -65,7 +65,6 @@
 
     <aside class="flex flex-col gap-10 rise" style="animation-delay:460ms">
       <div class="flex flex-col gap-2">
-        <p class="text-sm tracking-widest uppercase text-foreground/40">Email</p>
         <a
           href="mailto:{email}"
           class="text-foreground/80 hover:text-accent transition-colors"
@@ -75,7 +74,6 @@
       </div>
 
       <div class="flex flex-col gap-2">
-        <p class="text-sm tracking-widest uppercase text-foreground/40">Visit</p>
         <p class="text-foreground/80 leading-relaxed">{address}</p>
         <a
           href="https://www.google.com/maps/search/?api=1&query={encodeURIComponent(address)}"
@@ -88,7 +86,6 @@
       </div>
 
       <div class="flex flex-col gap-3">
-        <p class="text-sm tracking-widest uppercase text-foreground/40">Socials</p>
         <div class="flex flex-col gap-2">
           {#each socials as social}
             <a
